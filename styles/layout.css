@@ -1,0 +1,43 @@
+/************************************************************************************/
+/*Website name*/
+/************************************************************************************/
+div.webname { margin: 0; padding: 10px; text-align: center;}
+img.webname { width: 500px; }
+/************************************************************************************/
+/*z-indexing*/
+/************************************************************************************/
+
+.row0 { z-index: 1; }
+.row1 { z-index: 2; }
+.row2 { z-index: 3; }
+.row3 { z-index: 4; }
+
+/************************************************************************************/
+/*carousel*/
+/************************************************************************************/
+.absolute { position: absolute; }
+.relative { position: relative; }
+.carousel { display: none; }
+img.carousel { width: 99.5%; }
+
+/************************************************************************************/
+/*Overlay*/
+/************************************************************************************/
+div.overlay { position: absolute; background-color: black; opacity: 0.4; width: 1503px; height: 845px; }
+
+/************************************************************************************/
+/*Top bar*/
+/************************************************************************************/
+ul.topbar { margin: 0; padding: 0; }
+.topbar { font-size: 1.5rem; text-align: center; text-transform: uppercase; text-decoration: none; color: white; font-weight: bolder; }
+.topbar li { display:inline-block; margin:10px 15px; padding: 5px 10px; }
+li :hover {; opacity: 0.7; }
+/************************************************************************************/
+/*header*/
+/************************************************************************************/
+#header{padding:50px 0; text-align:center;}
+#header *{margin:0; padding:0; line-height:1;}
+#header h1{font-size:36px; letter-spacing:3px;}
+#header p{margin-top:-2px; font-size:.9rem; text-transform:lowercase;}
+
+
