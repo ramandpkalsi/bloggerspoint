@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/layout.css">
+</head>
+<body id="top">
+	<div class="container">
+		<div class="content">
+
+			<div class="row0 absolute">
+				<img class="carousel" src="images/adv1.jpg">
+				<img class="carousel" src="images/food1.jpg">
+				<img class="carousel" src="images/tourism1.jpg">
+				<img class="carousel" src="images/adv6.jpg">
+				<img class="carousel" src="images/food6.jpg">
+				<img class="carousel" src="images/tourism6.jpg">
+			</div>
+
+			<div class="row1 overlay"></div>
+
+			<div class="row2 relative">
+				<div class="webname">
+					<img class="webname" src="images/green.png">
+					<!-- <img class="webname" src="images/green.png"> -->
+					<!-- <img class="webname" src="images/pink.png"> -->
+					<!-- <img class="webname" src="images/orange.png"> -->
+					<!-- <img class="webname" src="images/blue.png"> -->
+					<!-- <img class="webname" src="images/yellow.png"> -->
+				</div>
+				<div class="topbar">
+					<ul class="topbar">
+						<li><a class="topbar" href="">home</a></li>
+						<li><a class="topbar" href="">blog</a></li>
+						<li><a class="topbar" href="">about</a></li>
+						<li><a class="topbar" href="">contact</a></li>
+					</ul>
+				</div>
+			</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	var index=0;
+	mycarousel();
+
+	function mycarousel()
+	{
+		var i;
+		var x=document.getElementsByClassName("carousel");
+
+		for(i=0; i<x.length; i++)
+		{
+			x[i].style.display="none";
+		}
+		index++;
+		if (index>x.length)
+			{ index=1; }
+		x[index-1].style.display="block";
+		setTimeout(mycarousel, 3000);
+	}
+</script>

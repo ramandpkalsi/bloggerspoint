@@ -1,0 +1,28 @@
+body { background-image: url("images/tourism.jpg"); }
+
+/************************************************************************************/
+/*z-indexing*/
+/************************************************************************************/
+
+.row0 { z-index: 1; }
+.row1 { z-index: 2; }
+.row2 { z-index: 3; }
+
+/************************************************************************************/
+/*Top bar*/
+/************************************************************************************/
+.topbar{ padding: 10px 0; font-size: 1.2rem; text-align: center; text-transform: uppercase; text-decoration: none; color: white; font-weight: bolder;}
+.topbar ul li{ display:inline-block; margin:15px; padding:15px;}
+.topbar i{ margin:0 10px 0 0; line-height:normal;}
+
+.topbar ul li:hover { color: black; background-color: white; opacity: 0.2;}
+
+/************************************************************************************/
+/*header*/
+/************************************************************************************/
+#header{padding:50px 0; text-align:center;}
+#header *{margin:0; padding:0; line-height:1;}
+#header h1{font-size:36px; letter-spacing:3px;}
+#header p{margin-top:-2px; font-size:.9rem; text-transform:lowercase;}
+
+
